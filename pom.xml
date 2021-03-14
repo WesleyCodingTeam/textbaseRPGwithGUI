@@ -42,8 +42,8 @@
                     <noHeaderFiles>true</noHeaderFiles>
                     <noManPages>true</noManPages>
                     <launcher>game</launcher>
-                    <jlinkImageName>wesley</jlinkImageName>
-                    <jlinkZipName>wesley</jlinkZipName>
+                    <jlinkImageName>textBaseRPG</jlinkImageName>
+                    <jlinkZipName>textBaseRPG</jlinkZipName>
                     <mainClass>com.wesleycodingteam.App</mainClass>
                 </configuration>
             </plugin>

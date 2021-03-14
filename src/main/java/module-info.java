@@ -1,4 +1,4 @@
-module com.wesleycodingteam {
+module RPGgame {
     requires javafx.controls;
     requires javafx.fxml;
 
