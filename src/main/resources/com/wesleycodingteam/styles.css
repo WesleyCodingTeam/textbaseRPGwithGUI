@@ -19,6 +19,10 @@
     -fx-text-fill: white;
     -fx-font-size: 50px;
 }
+.smalltitle{
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+}
 .names{
     -fx-text-fill: white;
     -fx-font-size: 20px;
@@ -45,4 +49,59 @@
 .statbutton{
     -fx-background-color: white;
     -fx-text-fill: white;
+}
+.normalText{
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 3px 3px;
+}
+.smallbutton{
+    -fx-background-color: black;
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 1px 2px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 3px;
+    -fx-font-size: 10px;
+}
+.hpbartext{
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-fit-to-height: true;
+
+}
+.hpprogress {
+    -fx-accent: red;
+    -fx-max-height: 15px;
+    -fx-max-width: 120px;
+}
+.hpprogress .track{
+    -fx-text-box-border: white;
+    -fx-border-radius: 5px;
+    -fx-control-inner-background: white;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 10;
+}
+.hpprogress .bar {
+    -fx-padding: 10px;
+    -fx-background-radius: 10;
+    -fx-background-insets: 2px;
+}
+.mpprogress {
+    -fx-accent: #439de3;
+    -fx-max-height: 15px;
+    -fx-max-width: 120px;
+}
+.mpprogress .track{
+    -fx-text-box-border: white;
+    -fx-border-radius: 5px;
+    -fx-control-inner-background: white;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 10;
+}
+.mpprogress .bar {
+    -fx-padding: 10px;
+    -fx-background-radius: 10;
+    -fx-background-insets: 2px;
 }
