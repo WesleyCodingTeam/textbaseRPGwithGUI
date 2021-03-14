@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane styleClass="background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wesleycodingteam.TitleController">
+   <center>
+      <BorderPane prefHeight="635.0" prefWidth="897.0" styleClass="background" stylesheets="@styles.css" BorderPane.alignment="CENTER">
+         <top>
+            <Label styleClass="title" stylesheets="@styles.css" text="Text Based RPG" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="49.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="100.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <Button mnemonicParsing="false" onAction="#switchToIntro" styleClass="titlebutton" stylesheets="@styles.css" text="START" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </center>
+         <bottom>
+            <Label styleClass="names" stylesheets="@styles.css" text="By: Jaeyoung, Jun, and Jonathan" BorderPane.alignment="BOTTOM_RIGHT" />
+         </bottom>
+      </BorderPane>
+   </center>
+</BorderPane>

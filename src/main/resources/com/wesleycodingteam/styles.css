@@ -1,0 +1,48 @@
+.titlebutton {
+    -fx-background-color: black;
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 15px 32px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 3px;
+    -fx-font-size: 20px;
+}
+.background{
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-padding: 5px 5px;
+    -fx-alignment: center;
+}
+.title{
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+.names{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-text-alignment: right;
+    -fx-alignment: center-right;
+    -fx-padding: 3px 3px;
+}
+.dialogue{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-alignment: top-left;
+    -fx-wrap-text: true;
+}
+.button {
+    -fx-background-color: black;
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 3px;
+    -fx-font-size: 20px;
+}
+.statbutton{
+    -fx-background-color: white;
+    -fx-text-fill: white;
+}
